@@ -3,14 +3,14 @@
 
 This repository contains the code of the video course [Ngrx (with NgRx Data) - The Complete Guide](https://angular-university.io/course/ngrx-course).
 
-This course repository is updated to Angular v21:
+This course repository is updated to Angular v22:
 
 ![Ngrx (with NgRx Data) - The Complete Guide](https://angular-university.s3-us-west-1.amazonaws.com/course-images/ngrx-v2.png)
 
 
 # Installation pre-requisites
 
-For taking the course we recommend installing Node 22 Long Term Support Edition (LTE).
+For taking the course we recommend installing Node 24 Long Term Support Edition (LTE).
 
 To easily switch between node versions on your machine, we recommend using a node virtual environment tool such as [nave](https://www.npmjs.com/package/nave) or [nvm-windows](https://github.com/coreybutler/nvm-windows), depending on your operating system. 
 
@@ -19,9 +19,9 @@ For example, here is how you switch to a new node version using nave:
     # note that you don't even need to update your node version before installing nave
     npm install -g nave
     
-    nave use 18.18.2
+    nave use 24.15.0
     node -v
-    v12.3.1
+    v24.15.0
 
 # Installing the Angular CLI
 
